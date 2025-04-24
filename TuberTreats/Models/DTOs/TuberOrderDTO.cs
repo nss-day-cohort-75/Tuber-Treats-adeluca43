@@ -1,7 +1,7 @@
-namespace TuberTreats.Models;
+namespace TuberTreats.Models.DTOs;
 
 
-public class TuberOrder
+public class TuberOrderDTO
 {
     public int Id { get; set; }
     public DateTime OrderPlacedOnDate { get; set; }
